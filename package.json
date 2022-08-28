@@ -1,37 +1,39 @@
 {
-  "name": "starswars",
-  "version": "1.0.0",
-  "description": "api",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "build": "tsc",
-    "start": "yarn buil && node dist/teste.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JozianeNascimento/Projeto-4sem.git"
-  },
-  "keywords": [
-    "api",
-    "typescrypt",
-    "node",
-    "express"
-  ],
-  "author": "Joziane",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JozianeNascimento/Projeto-4sem/issues"
-  },
-  "homepage": "https://github.com/JozianeNascimento/Projeto-4sem#readme",
-  "dependencies": {
-    "@types/node": "^18.7.6",
-    "module-alias": "^2.2.2"
-  },
-  "devDependencies": {
-    "@types/module-alias": "^2.0.1"
-  }
+    "name": "starswars",
+    "version": "1.0.0",
+    "description": "api",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "build": "tsc",
+        "start": "yarn build && node dist/test.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JozianeNascimento/Projeto-4sem.git"
+    },
+    "keywords": [
+        "api",
+        "typescrypt",
+        "node",
+        "express"
+    ],
+    "author": "Joziane",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JozianeNascimento/Projeto-4sem/issues"
+    },
+    "homepage": "https://github.com/JozianeNascimento/Projeto-4sem#readme",
+    "dependencies": {
+        "@types/node": "^18.7.13",
+        "module-alias": "^2.2.2"
+    },
+    "devDependencies": {
+        "@types/module-alias": "^2.0.1",
+        "tslint": "^5.12.1",
+        "typescript": "^3.3.3"
+    }
 }
